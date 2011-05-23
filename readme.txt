@@ -6,7 +6,7 @@
  * @link      http://tkns.homelinux.net/
  * @license   http://www.opensource.org/licenses/bsd-license.php  New BSD License
  * @since     2010.05.20
- * @version   10.5.24
+ * @version   11.5.23
  */
 
 ●コメント投稿者のGravatar画像を表示するプラグイン
@@ -41,4 +41,5 @@ Loggixのデフォルトテーマに近いスタイルにする場合は、イ�
 作者多忙の為サポート出来ません。意見/感想はContactからご連絡ください。
 
 ■更新履歴
+2011-05-23:PHP5.3.0でエラーが出ていた箇所を修正
 2010-05-24:公開

@@ -40,7 +40,7 @@ function showGravatarImage($commentID, $class = 'guest')
     $userMail = $res->fetchColumn();
 
     // Default image
-    $defaultUrl = (ereg('admin', $class)) ? $app->getRootUri() . 'theme/css/default/images/icon-admin.png'
+    $defaultUrl = (preg_match('/admin/', $class)) ? $app->getRootUri() . 'theme/css/default/images/icon-admin.png'
                                           : $app->getRootUri() . 'theme/css/default/images/icon-guest.png';
 
     // Make Gravatar URL
